@@ -3465,6 +3465,7 @@ GameObject:
   - component: {fileID: 1049062789}
   - component: {fileID: 1049062788}
   - component: {fileID: 1049062787}
+  - component: {fileID: 1049062792}
   m_Layer: 8
   m_Name: Starter Fishing Spot
   m_TagString: Untagged
@@ -3886,6 +3887,23 @@ Transform:
   - {fileID: 1059050861}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1049062792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b46a4c10c0a3e742b11aa6aeecb0a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VillageAreaMarker
+  areaType: 0
+  zoneLevel: 1
+  areaDisplayName: Main Pond
+  areaDescription: A cozy magical pond full of strange fish.
+  suggestedMaterialColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &1055551491
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,6 +4028,7 @@ GameObject:
   - component: {fileID: 1059050864}
   - component: {fileID: 1059050863}
   - component: {fileID: 1059050862}
+  - component: {fileID: 1059050865}
   m_Layer: 8
   m_Name: Starter Fishing Spot Label
   m_TagString: Untagged
@@ -4119,6 +4138,23 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1059050865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059050860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b46a4c10c0a3e742b11aa6aeecb0a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VillageAreaMarker
+  areaType: 0
+  zoneLevel: 1
+  areaDisplayName: Main Pond
+  areaDescription: A cozy magical pond full of strange fish.
+  suggestedMaterialColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &1065290879
 GameObject:
   m_ObjectHideFlags: 0
@@ -7032,6 +7068,7 @@ GameObject:
   - component: {fileID: 1743751062}
   - component: {fileID: 1743751061}
   - component: {fileID: 1743751060}
+  - component: {fileID: 1743751063}
   m_Layer: 8
   m_Name: Run Portal
   m_TagString: Untagged
@@ -7089,6 +7126,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1743751063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743751059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b46a4c10c0a3e742b11aa6aeecb0a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VillageAreaMarker
+  areaType: 3
+  zoneLevel: 3
+  areaDisplayName: Boss Gate
+  areaDescription: A cozy magical pond full of strange fish.
+  suggestedMaterialColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &1787770566
 GameObject:
   m_ObjectHideFlags: 0
@@ -7516,6 +7570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044604821}
   - component: {fileID: 2044604820}
+  - component: {fileID: 2044604822}
   m_Layer: 0
   m_Name: Village Presentation
   m_TagString: Untagged
@@ -7558,6 +7613,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044604822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044604819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b46a4c10c0a3e742b11aa6aeecb0a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VillageAreaMarker
+  areaType: 0
+  zoneLevel: 1
+  areaDisplayName: Main Pond
+  areaDescription: A cozy magical pond full of strange fish.
+  suggestedMaterialColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &2129375808
 GameObject:
   m_ObjectHideFlags: 0
@@ -7569,6 +7641,7 @@ GameObject:
   - component: {fileID: 2129375811}
   - component: {fileID: 2129375810}
   - component: {fileID: 2129375809}
+  - component: {fileID: 2129375812}
   m_Layer: 0
   m_Name: Pond
   m_TagString: Untagged
@@ -7648,6 +7721,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129375812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129375808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b46a4c10c0a3e742b11aa6aeecb0a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VillageAreaMarker
+  areaType: 0
+  zoneLevel: 1
+  areaDisplayName: Main Pond
+  areaDescription: A cozy magical pond full of strange fish.
+  suggestedMaterialColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
