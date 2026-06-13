@@ -1,0 +1,1230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &722224742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722224745}
+  - component: {fileID: 722224744}
+  - component: {fileID: 722224743}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &722224743
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722224742}
+  m_Enabled: 1
+--- !u!20 &722224744
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722224742}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &722224745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722224742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1049062786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1049062791}
+  - component: {fileID: 1049062790}
+  - component: {fileID: 1049062789}
+  - component: {fileID: 1049062788}
+  - component: {fileID: 1049062787}
+  m_Layer: 0
+  m_Name: Fishing Spot - Starter Pond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1049062787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049062786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46094cecc7b0a9f4dabaa3f46180f190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishingSpotInteractable
+  spotName: Funky Wizard Pond
+  fishingTime: 2
+  awardCoinsImmediately: 1
+  fishSpeciesAssets: []
+  speciesPool:
+  - speciesName: Pond Minnow
+    rarity: 0
+    encounterType: 0
+    baseDifficulty: 0.65
+    speedModifier: 0.85
+    requiredSuccessScore: 1
+    failureTolerance: 3
+    preferredHabitat: Wizard Village Pond
+    flavorText: A tiny starter fish that sparkles when it sneezes.
+    weightRange: {x: 0.5, y: 2}
+    magicPowerRange: {x: 1, y: 8}
+    sellValueRange: {x: 6, y: 12}
+    xpRewardRange: {x: 4, y: 8}
+  - speciesName: Bluegill Sprite
+    rarity: 0
+    encounterType: 1
+    baseDifficulty: 0.8
+    speedModifier: 0.95
+    requiredSuccessScore: 6
+    failureTolerance: 3
+    preferredHabitat: Wizard Village Pond
+    flavorText: Half fish, half tiny pond prank.
+    weightRange: {x: 1, y: 3.5}
+    magicPowerRange: {x: 3, y: 12}
+    sellValueRange: {x: 10, y: 20}
+    xpRewardRange: {x: 6, y: 10}
+  - speciesName: Moon Carp
+    rarity: 1
+    encounterType: 0
+    baseDifficulty: 1
+    speedModifier: 1.05
+    requiredSuccessScore: 2
+    failureTolerance: 2
+    preferredHabitat: Moonlit Pond
+    flavorText: Its scales reflect a moon that is not always there.
+    weightRange: {x: 3, y: 8}
+    magicPowerRange: {x: 10, y: 28}
+    sellValueRange: {x: 24, y: 50}
+    xpRewardRange: {x: 10, y: 16}
+  - speciesName: Crystal Trout
+    rarity: 2
+    encounterType: 5
+    baseDifficulty: 1.35
+    speedModifier: 1.15
+    requiredSuccessScore: 2
+    failureTolerance: 1
+    preferredHabitat: Crystal Water
+    flavorText: It makes a polite glass clink when caught.
+    weightRange: {x: 5, y: 12}
+    magicPowerRange: {x: 25, y: 55}
+    sellValueRange: {x: 70, y: 140}
+    xpRewardRange: {x: 18, y: 30}
+  - speciesName: Goblin Catfish
+    rarity: 1
+    encounterType: 2
+    baseDifficulty: 1.1
+    speedModifier: 1
+    requiredSuccessScore: 3
+    failureTolerance: 2
+    preferredHabitat: Muddy River Edge
+    flavorText: It looks like it stole bait from its own reflection.
+    weightRange: {x: 4, y: 10}
+    magicPowerRange: {x: 12, y: 35}
+    sellValueRange: {x: 28, y: 75}
+    xpRewardRange: {x: 10, y: 18}
+  - speciesName: Ancient Boss Koi
+    rarity: 4
+    encounterType: 2
+    baseDifficulty: 2.1
+    speedModifier: 1.1
+    requiredSuccessScore: 5
+    failureTolerance: 1
+    preferredHabitat: Moonlit Boss Swamp
+    flavorText: Old enough to remember when the pond was only a puddle.
+    weightRange: {x: 18, y: 35}
+    magicPowerRange: {x: 85, y: 140}
+    sellValueRange: {x: 350, y: 700}
+    xpRewardRange: {x: 70, y: 120}
+  - speciesName: Neon Starfish
+    rarity: 3
+    encounterType: 4
+    baseDifficulty: 1.8
+    speedModifier: 1.3
+    requiredSuccessScore: 4
+    failureTolerance: 1
+    preferredHabitat: Neon Reef
+    flavorText: It flashes like a sign outside a wizard diner.
+    weightRange: {x: 4, y: 11}
+    magicPowerRange: {x: 55, y: 88}
+    sellValueRange: {x: 150, y: 300}
+    xpRewardRange: {x: 30, y: 50}
+  - speciesName: Frogscale Bass
+    rarity: 1
+    encounterType: 1
+    baseDifficulty: 1
+    speedModifier: 1
+    requiredSuccessScore: 12
+    failureTolerance: 3
+    preferredHabitat: Swamp Pond
+    flavorText: It croaks whenever it disagrees with your rod technique.
+    weightRange: {x: 3, y: 9}
+    magicPowerRange: {x: 12, y: 35}
+    sellValueRange: {x: 25, y: 70}
+    xpRewardRange: {x: 8, y: 16}
+  - speciesName: Turtleback Trout
+    rarity: 2
+    encounterType: 2
+    baseDifficulty: 1.3
+    speedModifier: 0.9
+    requiredSuccessScore: 4
+    failureTolerance: 2
+    preferredHabitat: Old Pond
+    flavorText: A slow fish with an ancient little shell ridge.
+    weightRange: {x: 8, y: 18}
+    magicPowerRange: {x: 28, y: 60}
+    sellValueRange: {x: 75, y: 160}
+    xpRewardRange: {x: 16, y: 30}
+  - speciesName: Ember Koi
+    rarity: 4
+    encounterType: 5
+    baseDifficulty: 2.2
+    speedModifier: 1.4
+    requiredSuccessScore: 2
+    failureTolerance: 1
+    preferredHabitat: Warm Spring
+    flavorText: Warm enough to toast marshmallows, not that it approves.
+    weightRange: {x: 15, y: 30}
+    magicPowerRange: {x: 85, y: 130}
+    sellValueRange: {x: 320, y: 680}
+    xpRewardRange: {x: 60, y: 90}
+  - speciesName: Ghost Guppy
+    rarity: 2
+    encounterType: 4
+    baseDifficulty: 1.5
+    speedModifier: 1.5
+    requiredSuccessScore: 3
+    failureTolerance: 1
+    preferredHabitat: Haunted Pond
+    flavorText: Mostly transparent, fully dramatic.
+    weightRange: {x: 1, y: 5}
+    magicPowerRange: {x: 35, y: 65}
+    sellValueRange: {x: 80, y: 155}
+    xpRewardRange: {x: 18, y: 32}
+  - speciesName: Astral Catfish
+    rarity: 3
+    encounterType: 2
+    baseDifficulty: 1.9
+    speedModifier: 1.15
+    requiredSuccessScore: 5
+    failureTolerance: 1
+    preferredHabitat: Star Pond
+    flavorText: Its whiskers point toward suspicious constellations.
+    weightRange: {x: 12, y: 24}
+    magicPowerRange: {x: 60, y: 95}
+    sellValueRange: {x: 170, y: 330}
+    xpRewardRange: {x: 35, y: 55}
+  - speciesName: Sunfire Leviathan
+    rarity: 4
+    encounterType: 1
+    baseDifficulty: 2.4
+    speedModifier: 1.35
+    requiredSuccessScore: 22
+    failureTolerance: 1
+    preferredHabitat: Solar Basin
+    flavorText: A huge blazing fish that makes shadows sweat.
+    weightRange: {x: 25, y: 45}
+    magicPowerRange: {x: 95, y: 145}
+    sellValueRange: {x: 380, y: 750}
+    xpRewardRange: {x: 70, y: 105}
+  - speciesName: Rainbow Rune Eel
+    rarity: 5
+    encounterType: 3
+    baseDifficulty: 2.8
+    speedModifier: 1.5
+    requiredSuccessScore: 5
+    failureTolerance: 0
+    preferredHabitat: Rune Current
+    flavorText: Every wiggle writes a spell nobody remembers.
+    weightRange: {x: 20, y: 55}
+    magicPowerRange: {x: 130, y: 210}
+    sellValueRange: {x: 700, y: 1500}
+    xpRewardRange: {x: 120, y: 180}
+  - speciesName: Ancient Pondwyrm
+    rarity: 5
+    encounterType: 3
+    baseDifficulty: 3
+    speedModifier: 1.2
+    requiredSuccessScore: 6
+    failureTolerance: 0
+    preferredHabitat: Deep Old Water
+    flavorText: Technically a fish, spiritually a weather event.
+    weightRange: {x: 35, y: 70}
+    magicPowerRange: {x: 150, y: 240}
+    sellValueRange: {x: 900, y: 1800}
+    xpRewardRange: {x: 140, y: 220}
+  flavorTexts:
+  - It hums like a tiny enchanted lute.
+  - Its scales shimmer with suspicious confidence.
+  - A fish beloved by eccentric river wizards.
+  - It smells faintly of peppermint and thunder.
+  - It blinks like it knows your future outfit.
+  specialTraits:
+  - Glittering Scales
+  - Potion-Scented
+  - Moon-Touched
+  - Sings in Bubbles
+  - Hat-Shaped Aura
+  - Tiny Thundercloud
+  - Wiggles Backwards
+  raritySettings:
+  - rarity: 0
+    rollWeight: 55
+    rarityColor: soft white/gray
+    colorAdjectives:
+    - Soft
+    - Foggy
+    - Pebble
+    - Mushroom
+    weightRange: {x: 1, y: 5}
+    magicPowerRange: {x: 1, y: 15}
+    sellValueRange: {x: 5, y: 25}
+    catchMessageStyle: A sweet little pond oddity.
+  - rarity: 1
+    rollWeight: 25
+    rarityColor: green
+    colorAdjectives:
+    - Mossy
+    - Emerald
+    - Fern
+    - Lime
+    weightRange: {x: 3, y: 9}
+    magicPowerRange: {x: 12, y: 35}
+    sellValueRange: {x: 20, y: 70}
+    catchMessageStyle: The water burps a green sparkle.
+  - rarity: 2
+    rollWeight: 12
+    rarityColor: blue/cyan
+    colorAdjectives:
+    - Azure
+    - Cyan
+    - Moonlit
+    - Crystal
+    weightRange: {x: 6, y: 14}
+    magicPowerRange: {x: 30, y: 60}
+    sellValueRange: {x: 60, y: 150}
+    catchMessageStyle: A bright ripple rings across the pond.
+  - rarity: 3
+    rollWeight: 5
+    rarityColor: purple/magenta
+    colorAdjectives:
+    - Neon
+    - Magenta
+    - Velvet
+    - Prismatic
+    weightRange: {x: 10, y: 22}
+    magicPowerRange: {x: 55, y: 90}
+    sellValueRange: {x: 140, y: 320}
+    catchMessageStyle: The pond briefly becomes a dance floor.
+  - rarity: 4
+    rollWeight: 2
+    rarityColor: orange/gold
+    colorAdjectives:
+    - Golden
+    - Sunfire
+    - Ember
+    - Royal
+    weightRange: {x: 18, y: 35}
+    magicPowerRange: {x: 85, y: 130}
+    sellValueRange: {x: 300, y: 700}
+    catchMessageStyle: Village bells ring from nowhere.
+  - rarity: 5
+    rollWeight: 1
+    rarityColor: rainbow/neon/glowing
+    colorAdjectives:
+    - Rainbow
+    - Cosmic
+    - Glowing
+    - Runic Neon
+    weightRange: {x: 30, y: 60}
+    magicPowerRange: {x: 120, y: 200}
+    sellValueRange: {x: 650, y: 1500}
+    catchMessageStyle: Wizard reality bends around the line.
+--- !u!65 &1049062788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049062786}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1049062789
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049062786}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1049062790
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049062786}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1049062791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049062786}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.35, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1217562746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217562760}
+  - component: {fileID: 1217562759}
+  - component: {fileID: 1217562758}
+  - component: {fileID: 1217562757}
+  - component: {fileID: 1217562756}
+  - component: {fileID: 1217562755}
+  - component: {fileID: 1217562754}
+  - component: {fileID: 1217562753}
+  - component: {fileID: 1217562752}
+  - component: {fileID: 1217562751}
+  - component: {fileID: 1217562750}
+  - component: {fileID: 1217562749}
+  - component: {fileID: 1217562748}
+  - component: {fileID: 1217562747}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1217562747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4023433e34c9d1846a805e54aa9f60a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WizardGear
+  equippedGear: []
+--- !u!114 &1217562748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f9560619c7e2b4eac9f06179654ace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WizardStats
+  focus: 0
+  reflex: 0
+  luck: 0
+  control: 0
+  power: 0
+  wisdom: 0
+  statPoints: 0
+--- !u!114 &1217562749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f542fe5f2731eb44badd1e9fd06d209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerProgression
+  level: 1
+  currentXP: 0
+  xpToNextLevel: 100
+  fishingSkill: 0
+  statPointsPerLevel: 1
+  wizardStats: {fileID: 0}
+  currency: {fileID: 0}
+  fishingRod: {fileID: 0}
+--- !u!114 &1217562750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c78d7e55333324d9a0d0aae64d6e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCurrency
+  gold: 0
+--- !u!114 &1217562751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a74e78df595f148881fd49d8622db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleInventory
+--- !u!114 &1217562752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b76c29539cb644384a7add50c09272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LivingEntity
+  maxHealth: 100
+  health: 100
+  maxStamina: 100
+  stamina: 100
+  staminaRegenRate: 15
+  movementSpeed: 5
+  sprintSpeed: 8
+  sprintStaminaCostPerSecond: 20
+  level: 1
+  faction: 5
+  showFloatingHealthBar: 1
+--- !u!114 &1217562753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444647a3a935dde4dbeeeb7a0c474695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FirstPersonPrototypeController
+  moveSpeed: 5
+  sprintKey: 304
+  jumpKey: 32
+  jumpHeight: 1.2
+  gravity: -20
+  playerCamera: {fileID: 0}
+  mouseSensitivity: 2
+  minLookAngle: -80
+  maxLookAngle: 80
+--- !u!143 &1217562754
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1217562755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4804bfc3c4e82a4d93ba054e933fab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FirstPersonFishingController
+  playerCamera: {fileID: 0}
+  rodTip: {fileID: 0}
+  bobberPrefab: {fileID: 0}
+  fishingLine: {fileID: 0}
+  statusText: {fileID: 0}
+  castKey: 323
+  reelKey: 101
+  cancelKey: 324
+  castDistance: 20
+  fishableLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  bobberWaterOffset: 0.05
+  baseReelSpeed: 1
+  fishEscapeSeconds: 4
+--- !u!114 &1217562756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b6ecce343a5ba54d99e501ded7e3603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFishingRod
+  rodLevel: 1
+  baseRodLevelUpgradeCost: 50
+  minigameEasePerRodLevel: 0.12
+  rods:
+  - rodName: Twig Wand Rod
+    cost: 0
+    rarityBonus: 0
+    magicPowerBonus: 0
+    bossCatchBonus: 0
+    description: A crooked twig that believes in you.
+    owned: 1
+  - rodName: Copper Moon Rod
+    cost: 75
+    rarityBonus: 2
+    magicPowerBonus: 5
+    bossCatchBonus: 1
+    description: A warm copper rod that glows under moonlight.
+    owned: 0
+  - rodName: Crystal Tide Rod
+    cost: 180
+    rarityBonus: 5
+    magicPowerBonus: 12
+    bossCatchBonus: 2
+    description: A clear crystal rod that hums near magical water.
+    owned: 0
+  - rodName: Neon Wizard Rod
+    cost: 420
+    rarityBonus: 10
+    magicPowerBonus: 25
+    bossCatchBonus: 4
+    description: A loud, bright rod for stylish spell-fishers.
+    owned: 0
+  - rodName: Ancient Star Rod
+    cost: 900
+    rarityBonus: 18
+    magicPowerBonus: 45
+    bossCatchBonus: 7
+    description: An old star-metal rod with impossible shimmer.
+    owned: 0
+  - rodName: Frog King Rod
+    cost: 1250
+    rarityBonus: 22
+    magicPowerBonus: 60
+    bossCatchBonus: 10
+    description: A royal swamp rod that ribbits during rare catches.
+    owned: 0
+  - rodName: Turtle Sage Rod
+    cost: 1600
+    rarityBonus: 28
+    magicPowerBonus: 75
+    bossCatchBonus: 14
+    description: A patient old rod for catching impossible pond legends.
+    owned: 0
+  equippedRodIndex: 0
+--- !u!114 &1217562757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c78d7e55333324d9a0d0aae64d6e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCurrency
+  gold: 0
+--- !u!114 &1217562758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f542fe5f2731eb44badd1e9fd06d209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerProgression
+  level: 1
+  currentXP: 0
+  xpToNextLevel: 100
+  fishingSkill: 0
+  statPointsPerLevel: 1
+  wizardStats: {fileID: 0}
+  currency: {fileID: 0}
+  fishingRod: {fileID: 0}
+--- !u!114 &1217562759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988def4da92e40d42811af5a4538ef72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractor
+  playerCamera: {fileID: 0}
+  inventory: {fileID: 0}
+  currency: {fileID: 0}
+  fishingRod: {fileID: 0}
+  progression: {fileID: 0}
+  wizardStats: {fileID: 0}
+  wizardGear: {fileID: 0}
+  prototypeHud: {fileID: 0}
+  movementController: {fileID: 0}
+  interactDistance: 4
+  interactKey: 101
+  interactableLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!4 &1217562760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217562746}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1959867310}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1671746100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671746102}
+  - component: {fileID: 1671746101}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1671746101
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671746100}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1671746102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671746100}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1830741803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830741806}
+  - component: {fileID: 1830741805}
+  - component: {fileID: 1830741804}
+  m_Layer: 0
+  m_Name: Fishing Systems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1830741804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830741803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc5d59303252e746ac121735c00ba1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishingDifficultyManager
+  zoneLevel: 1
+  bossLevel: 1
+  roundDifficultyBonus: 0.15
+  zoneDifficultyBonus: 0.2
+  bossDifficultyBonus: 0.25
+  playerLevelReduction: 0.04
+--- !u!114 &1830741805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830741803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e907a243e51f3d468ebe04210802ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishingMinigameManager
+  baseDuration: 6
+  actionKey: 32
+--- !u!4 &1830741806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830741803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1959867309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959867310}
+  - component: {fileID: 1959867312}
+  - component: {fileID: 1959867311}
+  m_Layer: 0
+  m_Name: Player Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1959867310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959867309}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 1.6, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1217562760}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1959867311
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959867309}
+  m_Enabled: 1
+--- !u!20 &1959867312
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959867309}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 722224745}
+  - {fileID: 1671746102}
+  - {fileID: 1830741806}
+  - {fileID: 1049062791}
+  - {fileID: 1217562760}
