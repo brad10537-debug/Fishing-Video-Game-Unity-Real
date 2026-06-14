@@ -42,6 +42,17 @@ public class PlayerAreaTracker : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        VillageAreaMarker marker = other.GetComponentInParent<VillageAreaMarker>();
+        if (marker != null)
+        {
+            SetArea(fallbackAreaName);
+            if (FishingDifficultyManager.Instance != null)
+                FishingDifficultyManager.Instance.zoneLevel = 1;
+        }
+    }
+
     private void SetArea(string areaName)
     {
         if (prototypeHud != null)
